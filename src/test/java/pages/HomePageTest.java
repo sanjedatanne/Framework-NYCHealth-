@@ -2,7 +2,8 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import hw_22.Base;
+
+import base.Base;
 
 public class HomePageTest extends Base {
 

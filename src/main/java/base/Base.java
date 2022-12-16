@@ -1,4 +1,4 @@
-package hw_22;
+package base;
 
 
 import java.time.Duration;
