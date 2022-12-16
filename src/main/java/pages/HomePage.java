@@ -35,21 +35,21 @@ public class HomePage {
 		location.click();
 		Thread.sleep(3000);
 	}
-	
+
 	// 3. Use of how.xPath locator
 	@FindBy(how = How.XPATH, using = "//button[@class= 'humburger']")
 	WebElement showMenu;
-	
+
 	public void showMenu() throws InterruptedException {
 		Thread.sleep(3000);
 		showMenu.click();
 		Thread.sleep(3000);
 	}
-	
+
 	// 4. Use of "By" as locator
 	By findDoctor = By.id("search-input");
 	WebElement doctorName;
-	
+
 	public void doctor() throws InterruptedException {
 		Thread.sleep(3000);
 		doctorName.click();
@@ -64,7 +64,5 @@ public class HomePage {
 		System.out.println("The logo is displayed: " + flag);
 		return flag;
 	}
-
-	
 
 }
